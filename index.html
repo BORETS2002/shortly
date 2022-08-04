@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template Project</title>
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- <link rel="stylesheet" href="/css/main.min.css" /> -->
+  </head>
+  <body>
+    <!-- SITE HEADER START -->
+
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__inner">
+          <a class="logo" href="./index.html">
+            <img
+              class="logo__img"
+              src="./images/logo.svg"
+              width="120"
+              height="32"
+              alt="sunnyside logo"
+            />
+          </a>
+
+          <button class="site-header__menu-btn"></button>
+
+          <nav class="sitenav">
+            <ul class="sitenav__list">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Features</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#"> Pricing</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Resources</a>
+              </li>
+            </ul>
+            <ul class="sitenav__list-twoo">
+              <li class="site__hreft-box-onee">
+                <a class="site__hreft-twoo" href="#"> Login </a>
+              </li>
+              <li class="site__hreft-box-twoo">
+                <a class="site__hreft-three" href="#"> Sign Up </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- SITE HEADER END -->
+
+    <!-- SITE MAIN START -->
+    <main class="site-main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__bos">
+            <div class="img__box">
+              <img class="hero__img" src="/images/hero-img.svg" alt="opaxon" />
+            </div>
+            <div class="hero__option">
+              <div class="hero__big-text-box">
+                <h1 class="hero__big-text">More than just shorter links</h1>
+              </div>
+              <div class="hero__mini-text-box">
+                <p class="hero__mini-text">
+                  Build your brand’s recognition and get detailed insights on
+                  how your links are performing.
+                </p>
+              </div>
+              <div class="hero__hreft-box">
+                <a class="hero__hreft" href="#">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="short">
+        <div class="container">
+          <div class="short-box">
+            <form
+              class="short__form"
+              action="https://echo.htmlacademy.ru/"
+              method="post"
+              autocomplete="off"
+            >
+              <label class="short__label">
+                <input
+                  class="short__input"
+                  type="url"
+                  name="user__url"
+                  placeholder="Shorten a link here..."
+                  minlength="2"
+                />
+                <span class="Please">Please add a link</span>
+              </label>
+              <div class="form__bottom-box">
+                <button class="form__button" type="submit">Shorten It!</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- SITE MAIN END -->
+
+    <!-- SITE FOOTER START -->
+    <footer class="site-footer"></footer>
+    <!-- SITE FOOTER END -->
+    <script src="/js/main.js"></script>
+  </body>
+</html>
