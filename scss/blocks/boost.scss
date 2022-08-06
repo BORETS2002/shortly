@@ -1,0 +1,50 @@
+/*<------------------BOOST------------------->*/
+
+.boost {
+  padding: 90px 0;
+  background-image: url("/images/boost-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.boost__link {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.7px;
+  color: #ffffff;
+}
+.boost__hreft-box {
+  max-width: 197px;
+  margin: 0 auto;
+}
+.boost__hreft {
+  display: inline-block;
+  padding: 13px 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+
+  background: #2bd0d0;
+  border-radius: 28px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .boost__link {
+    margin-bottom: 32px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .boost__hreft {
+    font-size: 20px;
+    line-height: 30px;
+    &:hover {
+      background: #9ae3e3;
+    }
+  }
+}

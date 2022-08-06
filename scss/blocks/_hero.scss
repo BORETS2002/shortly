@@ -1,0 +1,143 @@
+.hero {
+  margin-bottom: 160px;
+  padding: 60px 0 168px 0;
+  background-image: url("/images/bulutcha.jpg");
+  background-size: 460px 337px;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 117px) calc(50% - 255px);
+  background-color: #fff;
+  position: relative;
+}
+@media screen and (min-width: 434px) {
+  .hero {
+    background-position: calc(50% + 117px) calc(50% - 242px);
+  }
+}
+@media screen and (min-width: 531px) {
+  .hero {
+    background-position: calc(50% + 117px) calc(50% - 218px);
+  }
+}
+
+.img__box {
+  width: 290px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero__img {
+  width: 290px;
+  height: 270px;
+  margin-bottom: 65px;
+}
+.hero__big-text-box {
+  max-width: 565px;
+  margin: 0 auto;
+}
+.hero__big-text {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #34313d;
+}
+.hero__mini-text-box {
+  max-width: 565px;
+  margin: 0 auto;
+}
+.hero__mini-text {
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: #9e9aa8;
+}
+.hero__hreft-box {
+  max-width: 197px;
+  margin: 0 auto;
+}
+.hero__hreft {
+  display: block;
+  padding: 13px 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #2bd0d0;
+  border-radius: 28px;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-size: 800px 600px;
+    background-position: calc(50% + 208px) calc(50% - 186px);
+    padding-top: 151px;
+    padding-bottom: 181px;
+  }
+
+  .img__box {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .hero__img {
+    width: 600px;
+    height: 470px;
+    margin-bottom: 65px;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .hero {
+    background-size: 704px 541px;
+    background-position: calc(50% + 390px) calc(50% - 27px);
+  }
+
+  .hero__bos {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    position: relative;
+  }
+  .img__box {
+    width: 585px;
+    margin-left: auto;
+  }
+  .hero__img {
+    margin: 0;
+    position: absolute;
+    top: -21px;
+    right: -70px;
+  }
+
+  .hero__big-text-box {
+    max-width: 567px;
+  }
+  .hero__big-text {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: -2px;
+    color: #34313d;
+    text-align: left;
+  }
+  .hero__mini-text-box {
+    max-width: 567px;
+  }
+  .hero__mini-text {
+    font-size: 22px;
+    line-height: 36px;
+    text-align: left;
+  }
+  .hero__hreft-box {
+    max-width: 197px;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,162 @@
+/*<------------------------------------ADVENSED------------------------------------------>*/
+
+.advance {
+  background: #f2f2f2;
+  padding-bottom: 80px;
+}
+
+.advence__big-text {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.7px;
+  color: #34313d;
+}
+.advence__mini-text-box {
+  max-width: 327px;
+  margin: 0 auto;
+}
+.advence__mini-text {
+  margin-bottom: 92px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #9e9aa8;
+}
+.advance__list {
+  position: relative;
+  background-image: url("/images/chiziq.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.advance__itms {
+  position: relative;
+  max-width: 327px;
+  margin: 0 auto;
+  padding: 77px 32px 41px 32px;
+  background: #fff;
+  &:not(:last-child) {
+    margin-bottom: 92px;
+  }
+
+  &::before {
+    position: absolute;
+    top: -50px;
+    right: 33%;
+    width: 88px;
+    height: 88px;
+    background-image: url("/images/Group-one.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+  }
+
+  &:nth-child(2)::before {
+    background-image: url("/images/Group-twoo.svg");
+  }
+  &:nth-child(2)::before {
+    background-image: url("/images/Group-three.svg");
+  }
+}
+
+@media screen and (min-width: 380px) {
+  .advance__itms {
+    &::before {
+      right: 35%;
+    }
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .advance__itms {
+    &::before {
+      right: 38%;
+    }
+  }
+}
+
+.advance__itms-big-text {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  color: #34313d;
+}
+.advance__itms-mini-text-box {
+  margin: 0 auto;
+  max-width: 280px;
+}
+.advance__itms-mini-text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #9e9aa8;
+}
+
+@media screen and (min-width: 768px) {
+  .advance__itms-big-text {
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .advance__itms-mini-text {
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .advence__big-text {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 18px;
+  }
+  .advence__mini-text-box {
+    max-width: 540px;
+  }
+  .advence__mini-text {
+    margin-bottom: 100px;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .advance__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url("/images/yon-ciziq.svg");
+    background-size: 1000px;
+
+    background-position: calc(50%) 161px;
+  }
+  .advance__itms {
+    margin: 0;
+    &:not(:last-child) {
+      margin-right: 32px;
+    }
+    &:nth-child(2) {
+      margin-top: 44px;
+    }
+    &:nth-child(3) {
+      margin-top: 88px;
+    }
+    &::before {
+      right: 60%;
+    }
+  }
+
+  .advance__itms-big-text {
+    text-align: left;
+  }
+  .advance__itms-mini-text-box {
+    margin-left: 0;
+  }
+  .advance__itms-mini-text {
+    text-align: left;
+  }
+}

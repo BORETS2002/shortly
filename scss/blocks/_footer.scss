@@ -1,0 +1,153 @@
+.footer {
+  padding: 54px 0;
+  background: #232127;
+}
+
+.footer__img {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.footer__list-one {
+  max-width: 85px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.footer__itms-one {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer__herf {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+
+  letter-spacing: -0.234375px;
+  color: #bfbfbf;
+}
+.footer__herf-twoo {
+  margin-bottom: 22px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  color: #ffffff;
+}
+.footer__list-twoo {
+  max-width: 85px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.footer__list-three {
+  max-width: 85px;
+  margin: 0 auto;
+}
+.footer__icon-list {
+  max-width: 170px;
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__icon-itms {
+  margin-right: 24px;
+}
+.footer__icon__hreft {
+  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 70px 0;
+  }
+
+  .footer__box {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer__list-box {
+    width: 400px;
+    display: flex;
+
+    justify-content: space-between;
+  }
+  .footer__logo {
+  }
+  .footer__img {
+  }
+  .footer__list-one {
+  }
+  .footer__itms-one {
+    text-align: left;
+  }
+  .footer__herf {
+    transition: color 0.5s ease;
+    &:hover {
+      color: #2bd0d0;
+    }
+  }
+  .footer__herf-twoo {
+  }
+
+  .footer__list-three {
+  }
+  .footer__icon-list {
+    margin: 0;
+    margin-right: 10px;
+  }
+  .footer__icon-itms {
+  }
+  .footer__icon__hreft {
+    transition: color 0.5s ease;
+
+    &:hover {
+      color: #2bd0d0;
+    }
+  }
+}
+@media screen and (min-width: 750px) {
+  .footer__list-box {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .footer__box {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .footer__list-box {
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: auto;
+  }
+
+  .footer__list-one {
+    width: 100%;
+    max-width: 113px;
+    margin: 0;
+    margin-bottom: 0;
+  }
+  .footer__list-twoo {
+    margin: 0;
+    margin-bottom: 0;
+  }
+  .footer__list-three {
+    margin: 0;
+  }
+}
